@@ -44,4 +44,9 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+    implementation("androidx.work:work-runtime-ktx:2.8.1")
+    implementation("io.coil-kt:coil-compose:2.4.0")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1")// Güncel versiyonu kontrol edin
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.6.1")
+    implementation ("androidx.compose.runtime:runtime-livedata:1.5.0")
 }
